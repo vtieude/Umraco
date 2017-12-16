@@ -5,4 +5,86 @@
 
 @* the fun starts here *@
 
-@RenderBody()
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Template</title>
+
+        <!-- Optional theme -->
+        
+
+        <!-- Latest compiled and minified JavaScript -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="Css/style.css" rel="stylesheet" type="text/css" />
+
+     
+    </head>
+    <body>
+        <div id="header">
+            <header>
+                <div class="container header inner">
+                    <nav class="navbar">
+                        <div class="container">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#" style="margin-top: -30px;"><img src="Image/logo.jpg"</a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="myNavbar">
+                                <ul class="nav navbar-nav navbar-right masthead-nav">
+                                    <li><a href="#"> Trang chủ</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Khách sạn <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">Thông tin khách sạn</a></li>
+                                            <li><a href="#">Hình ảnh</a></li>
+                                            <li><a href="#">Sự kiện</a></li>
+                                            <li><a href="#">Liên hệ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Loại phòng <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dịch vụ <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#"> Khuyến mãi</a></li>
+                                    <li><a href="#"> Tin tức</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <!--End Header-->
+        <div id="content"> @RenderBody() </div>
+        <!--End Content-->
+        <div id="footer">
+
+        </div>
+        <!--End footer-->
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
