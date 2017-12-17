@@ -289,10 +289,10 @@ img {
 .clearfix {
     clear: both;
 }
-#footer {
-    background: #000000;
+
+#footer .footer-top {
+    background:  rgb(46, 46, 46);
     padding: 20px 0;
-    display: block;
 }
 .glyphicon-envelope {
     content: "\f003";
@@ -311,7 +311,7 @@ img {
     margin-left: -15px;
 }
 
-#footer .container .mailchimp h4 {
+#footer .footer-top .container .mailchimp h4 {
     display: inline-block;
     font-family: 'Montserrat';
     margin: 0;
@@ -321,7 +321,7 @@ img {
     text-transform: uppercase;
     font-weight: normal;
 }
-#footer .container .mail_form {
+#footer .footer-top .container .mailchimp .mail_form {
     display: inline-block;
     vertical-align: middle;
     margin-left: 65px;
@@ -386,7 +386,10 @@ img {
     -moz-osx-font-smoothing: grayscale;
     transform: translate(0, 0);
 }
-
+#footer .footer-center {
+    background: #222020;
+    color: white;
+}
 #footer .footer-center .widget-logo {
     overflow: hidden;
     padding-top: 20px;
@@ -401,3 +404,12 @@ img {
         vertical-align: middle;
         margin-top: 10px;
     }
+#footer .footer-bottom {
+    background: #000000;
+    color: white;
+    text-align: center;
+}
+.section-accomd {
+    background-position: 50% 18px;
+    background-image: url(../Image/section1.jpg.crdownload);
+}
