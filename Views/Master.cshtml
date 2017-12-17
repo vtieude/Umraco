@@ -18,141 +18,164 @@
         
 
         <!-- Latest compiled and minified JavaScript -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link href="Css/style.css" rel="stylesheet" type="text/css" />
 
      
     </head>
-    <body>
-        <div id="header">
-            <header>
-                <div class="container header inner">
-                    <nav class="navbar">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="#" style="margin-top: -30px;"><img src="Image/logo.jpg"</a>
-                            </div>
-                            <div class="collapse navbar-collapse" id="myNavbar">
-                                <ul class="nav navbar-nav navbar-right masthead-nav">
-                                    <li><a href="#"> Trang chủ</a></li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Khách sạn <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Thông tin khách sạn</a></li>
-                                            <li><a href="#">Hình ảnh</a></li>
-                                            <li><a href="#">Sự kiện</a></li>
-                                            <li><a href="#">Liên hệ</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Loại phòng <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dịch vụ <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#"> Khuyến mãi</a></li>
-                                    <li><a href="#"> Tin tức</a></li>
-                                </ul>
+    <body lang="vi">
+        <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+        <div id="page-wrap">
+            <header id="header">
+                <div class="header_top">
+                    <div class="container">
+                        <div class="header_left float-left">
+                            <span><i class="glyphicon glyphicon-map-marker"></i> 76 Hà Bổng, Sơn Trà, Đà Nẵng</span>
+                            <span><i class="glyphicon glyphicon-earphone"></i> (+84)236.123.456</span>
+                        </div>
+                        <div class="header_right float-right">
+                            <div class="dropdown language">
+                                <span> Tiếng Việt</span>
                             </div>
                         </div>
-                    </nav>
+                    </div>
+                </div>
+                <div class="header_content" id="header_content">
+                    <div class="container">
+                        <div class="header_logo">
+                            <div class="header_logo">
+                                <a href="">
+                                    <img src="http://dananggreeneryhotel.com/public/images/logo-header.png" alt="Da Nang Greenery Hotel Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header_nav inner">
+                            <nav class="navbar">
+                                <div class="container">
+                                    <div class="navbar-header">
+                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                            <span class="sr-only">Toggle navigation</span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <a class="navbar-brand" href="#"></a>
+                                    </div>
+                                    <div class="collapse navbar-collapse" id="myNavbar bs-example-navbar-collapse-1">
+                                        <ul class="nav navbar-nav navbar-right masthead-nav">
+                                            <li><a href="#">Trang chủ<span class="sr-only">(current)</span></a></li>
+                                            <li><a href="#">Khách sạn</a></li>
+                                            <li><a href="#">Loại phòng</a></li>
+                                            <li><a href="#">Khuyến mãi</a></li>
+                                            <li><a href="#"> Tin tức</a></li>
+                                            <li><a href="#"> Sự kiện</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
                 </div>
             </header>
-            <div class="clearfix visible-xs-block"></div>
-        </div>
-        
-        <!--End Header-->
-        <div id="content"> @RenderBody() </div>
-        <div class="clearfix visible-xs-block"></div>
-        <!--End Content-->
-        <div id="footer">
-            <div class="container-footer">
-                <div class="row">
-                    <h3 class="footertext">About Us:</h3>
-                    <br>
-                    <div class="col-md-4">
-                        <center>
-                            <img src="http://oi60.tinypic.com/w8lycl.jpg" class="img-circle" alt="the-brains">
-                            <br>
-                            <h4 class="footertext">Programmer</h4>
-                            <p class="footertext">You can thank all the crazy programming here to this guy.<br>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <img src="http://oi60.tinypic.com/2z7enpc.jpg" class="img-circle" alt="...">
-                            <br>
-                            <h4 class="footertext">Artist</h4>
-                            <p class="footertext">All the images here are hand drawn by this man.<br>
-                        </center>
-                    </div>
-                    <div class="col-md-4">
-                        <center>
-                            <img src="http://oi61.tinypic.com/307n6ux.jpg" class="img-circle" alt="...">
-                            <br>
-                            <h4 class="footertext">Designer</h4>
-                            <p class="footertext">This pretty site and the copy it holds are all thanks to this guy.<br>
-                        </center>
+            <!--End header-->
+            <section>
+                <div>@RenderBody()</div>
+            </section>
+            <!--End body-->
+            <div class="clearfix"></div>
+            <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-9">
+                            <div class="mailchimp">
+                                <h4><span class="glyphicon glyphicon-envelope"></span>Tin tức & khuyến mãi</h4>
+                                <div class="mail_form">
+                                    <form class="form contact-form mt-10" id="form-subcribe" method="post" accept-charset="utf-8">
+                                        <input type="text" name="email" placeholder="Nhập địa chỉ Email" class="input-text" id="email" />
+                                        <button type="button" class="awe-btn" id="btn-subcrice"> Đăng ký</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="social">
+                                <div class="social-content">
+                                    <a href=""><i class="fa fa-pinterest"></i></a>
+                                    <a href=""><i class="fa fa-facebook"></i></a>
+                                    <a href=""><i class="fa fa-twitter"></i></a>
+                                    <a href=""><i class="fa fa-google-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <p><center><a href="#"><img src="Image/logo.jpg" /></a></center> </p>
-                    </div>
-
-                    <div class="col-md-2">
-                        <p>
-                            <br/> 
-                            <p class="footertext" style="font-size:12px;">76 Hà Bổng, Sơn Trà, Đà Nẵng,</p>
-                            <p class="footertext">01266 666 666</p>
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>
-                            <center>
-                                <h3 class="footertext">Liên kết</h3>
-                                <p><a href="#">Phòng nghỉ</a></p>
-                                <p><a href="#">Ảnh </a></p>
-                                <p><a href="#">Khuyến mãi</a></p>
-                            </center>
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>
-                            <center>
-                                <h3 class="footertext">Khách sạn</h3>
-                                <p><a href="#">Thông tin</a></p>
-                                <p><a href="#">Khuyến mãi</a></p>
-                            </center>
-                        </p>
-                    </div>
-                    <div class="col-md-2">
-                        <p>
-                            <center>
-                                <p><h3 class="footertext">TRIPADVISOR</h3></p>
-                            </center>
-                        </p>
+                <div class="footer-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-5">
+                                <div class="widget widget_logo">
+                                    <div class="widget-logo">
+                                        <div class="img">
+                                            <a href="http://dananggreeneryhotel.com/">
+                                                <img src="http://dananggreeneryhotel.com/public/images/logo-footer.png" alt="Đà Nẵng Greenery Hotel">
+                                            </a>
+                                        </div>
+                                        <div class="text">
+                                            <p><i class="lotus-icon-location"></i> 76 Hà Bổng, Sơn Trà, Đà Nẵng</p>
+                                            <p><i class="lotus-icon-phone"></i> (+84)236.123.456</p>
+                                            <p>
+                                                <i class="fa fa-envelope-o"></i>
+                                                <a href="mailto:contact@dananggreeneryhotel.com">contact@dananggreeneryhotel.com</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-lg-7 contact-footer">
+                                <div class="col-xs-4 col-lg-4">
+                                    <div class="widget">
+                                        <h4 class="widget-title">Liên Kết</h4>
+                                        <ul>
+                                            <li><a href="http://dananggreeneryhotel.com/vi/phong/danh-sach>">Phòng Nghỉ</a></li>
+                                            <li><a href="http://dananggreeneryhotel.com/vi/hinh-anh">Thư Viện Ảnh</a></li>
+                                            <li><a href="http://dananggreeneryhotel.com/vi/danh-muc/khuyen-mai">Khuyến Mãi</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-lg-4">
+                                    <div class="widget">
+                                        <h4 class="widget-title">Khách Sạn</h4>
+                                        <ul>
+                                            <li><a href="http://dananggreeneryhotel.com/vi/gioi-thieu">Giới Thiệu</a></li>
+                                            <li><a href="http://dananggreeneryhotel.com/vi/lien-he">Liên Hệ</a></li>
+                                            <li><a href="" http://dananggreeneryhotel.com/vi/danh-muc/tin-tuc">Tin Tức</a></li>
+                                            <li><a href="http://dananggreeneryhotel.com/vi/danh-muc/su-kien">Sự Kiện</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-4 col-lg-4">
+                                    <div class="widget widget_tripadvisor">
+                                        <h4 class="widget-title">Tripadvisor</h4>
+                                        <div class="tripadvisor">
+                                            <img src="http://dananggreeneryhotel.com/public/images/tripadvisor.png" alt="">
+                                            <span class="tripadvisor-circle">
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i></i>
+                                                <i class="part"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </footer>
+            <!--End Footer-->
         </div>
-        <!--End footer-->
-        <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
         <!-- Latest compiled JavaScript -->
